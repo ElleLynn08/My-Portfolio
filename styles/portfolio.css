@@ -10,12 +10,12 @@ body {
     rgb(67, 65, 65) 0%,
     rgb(132, 130, 130) 100%
   );
-
   font-family: var(--default-font-family);
-  margin: 0 auto;
-
+  margin: auto;
   padding-top: 140px;
+  overflow: hidden;
 }
+
 h1,
 h2,
 h3,
@@ -32,8 +32,12 @@ h1 {
 }
 
 .hero {
+  align-content: end;
+  border-bottom: solid #393939 5px;
+  margin-right: -300px;
+  max-height: 488px;
   text-align: center;
-  padding: 160px, 20px;
+  padding: 160px, 5px;
 }
 .hero p {
   color: #ffffff;
@@ -50,6 +54,12 @@ h1 {
   font-size: 26px;
   line-height: 2;
 }
+.hero-image {
+  display: flex;
+  margin-left: -430px;
+  margin-top: -550px;
+  max-width: 1200px;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -59,10 +69,26 @@ h1 {
   padding: 15px, 30px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1023px) {
+  .hero {
+    border-bottom: none;
+    text-align: center;
+    margin: auto;
+  }
+  .hero p {
+    font-size: 25px;
+  }
   .name-header {
-    font-size: 58px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 50px;
+  }
+  .hero h2 {
+    font-size: 15px;
+  }
+  .btn-branding {
+    font-size: 14px;
+    padding: 10px, 25px;
+  }
+  .hero-image {
+    display: none;
   }
 }
