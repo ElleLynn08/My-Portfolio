@@ -41,10 +41,6 @@ p {
 }
 
 .hero {
-  align-content: end;
-  border-bottom: solid #393939 5px;
-  margin-right: -305px;
-  max-height: 502px;
   text-align: center;
   padding: 160px, 5px;
 }
@@ -53,7 +49,7 @@ p {
   font-family: var(--heading-font-family);
   font-size: 36px;
   font-weight: bold;
-  margin: 0;
+  margin: 0 auto;
   padding-bottom: 7px;
 }
 
@@ -65,11 +61,15 @@ p {
   line-height: 2;
 }
 .hero-image {
+  width: 1200px;
+}
+/*.hero-image {
   display: flex;
   margin-left: -430px;
   margin-top: -550px;
   max-width: 1200px;
-}
+} */
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
