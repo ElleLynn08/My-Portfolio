@@ -34,11 +34,15 @@ p {
 }
 .hero-image {
   max-width: 500px;
-  margin-top: -200px;
+  margin-top: -108px;
 }
 
 .hero {
-  background: linear-gradient(43deg, rgb(0, 0, 0) 51%, rgb(182, 182, 182) 95%);
+  background: linear-gradient(
+    112deg,
+    rgb(0, 0, 0) 60%,
+    rgb(182, 182, 182) 100%
+  );
   max-height: 685px;
   text-align: center;
   padding-top: 160px;
@@ -91,38 +95,10 @@ p {
   }
 
   .hero {
-    text-align: center;
     padding: 80px 20px;
   }
   .project-description {
     padding: 0;
     text-align: center;
   }
-  .hero-image {
-    display: none;
-  }
 }
-/*
-  .hero {
-    border-bottom: none;
-    text-align: center;
-    margin: auto;
-  }
-  .hero p {
-    font-size: 25px;
-  }
-  .name-header {
-    font-size: 50px;
-  }
-  .hero h2 {
-    font-size: 15px;
-  }
-  .btn-branding {
-    font-size: 14px;
-    padding: 10px, 25px;
-  }
-  .hero-image {
-    display: none;
-  }
-}
-*/
