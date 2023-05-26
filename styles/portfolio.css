@@ -85,10 +85,10 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 56px;
   }
   h2 {
     font-size: 40px;
@@ -101,4 +101,31 @@ p {
     padding: 0;
     text-align: center;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+/* About Page*/
+.about-page-image {
+  border-radius: 15px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+.about-section h1 {
+  color: #000000;
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
 }
