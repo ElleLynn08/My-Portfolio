@@ -32,13 +32,40 @@ p {
   font-weight: normal;
   line-height: 1.7;
 }
-.logo {
-  max-width: 80px;
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  line-height: 42px;
+  list-style: none;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+.logo {max-width: 1000px;
+  
+}
+.tiny-logo {
+  max-width: 400px;
 }
 
 .hero-image {
   max-width: 500px;
-  margin-top: -108px;
+  margin-top: -105px;
 }
 
 .hero {
@@ -88,14 +115,33 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+@media (max-width: 1378px) {
+  .hero-image {
+    max-width: 400px;
+  }
+  .hero {
+    max-height: 560px;
+  }
+}
+@media (max-width: 1025px) {
+  .hero-image {
+    max-width: 380px;
+  }
+  .hero {
+    max-height: 535px;
+  }
+}
 
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   h1 {
     font-size: 44px;
     line-height: 56px;
   }
   h2 {
     font-size: 40px;
+  }
+  .hero-image {
+    display: none;
   }
 
   .hero {
