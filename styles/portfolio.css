@@ -79,6 +79,11 @@ footer .social-links a:hover {
   background: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
+footer .contact-box {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
 
 .logo {
   max-height: 40px;
@@ -87,6 +92,9 @@ footer .social-links a:hover {
 .hero-image {
   max-width: 500px;
   margin-top: -105px;
+}
+.hero-button:hover {
+  color: #ffffff;
 }
 
 .hero {
