@@ -27,6 +27,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h3 {
+  font-size: 48px;
+}
 p {
   font-size: 16px;
   font-weight: normal;
@@ -93,8 +96,8 @@ footer .contact-box {
   max-width: 500px;
   margin-top: -105px;
 }
-.hero-button:hover{
-  color:#ffffff
+.hero-button:hover {
+  color: #ffffff;
 }
 
 .hero {
@@ -145,6 +148,15 @@ footer .contact-box {
   padding: 120px 60px;
 }
 
+.resource-links a {
+  color: #000000;
+  text-decoration: none;
+}
+.resource-links a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 1378px) {
   .hero-image {
     max-width: 400px;
@@ -192,7 +204,7 @@ footer .contact-box {
   border-radius: 15px;
 }
 .content-container {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .content {
