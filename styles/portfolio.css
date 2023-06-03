@@ -88,6 +88,29 @@ footer .contact-box {
   padding: 30px 120px;
 }
 
+.skills {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.skills i {
+  color: var(--branding-color);
+  font-size: 30px;
+  text-align: center;
+}
+
+ .skills p {
+  font-size: 14px;
+}
+@media (max-width: 460px) {
+  .skills i {
+    font-size: 6px;
+  }
+  .skills p {
+    font-size:6px;
+  }
+}
+
 .logo {
   max-height: 40px;
 }
@@ -158,8 +181,6 @@ footer .contact-box {
 
   transition: all 100ms ease-in-out;
 }
-
-
 
 @media (max-width: 1378px) {
   .hero-image {
