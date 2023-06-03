@@ -150,12 +150,16 @@ footer .contact-box {
 
 .resource-links a {
   color: #000000;
+
   text-decoration: none;
 }
 .resource-links a:hover {
   color: var(--branding-color);
+
   transition: all 100ms ease-in-out;
 }
+
+
 
 @media (max-width: 1378px) {
   .hero-image {
