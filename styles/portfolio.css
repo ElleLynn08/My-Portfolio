@@ -109,6 +109,10 @@ footer .contact-box {
   .skills p {
     font-size: 6px;
   }
+  .logo{
+    max-width: 60px;
+    margin-top: 10px;
+  }
 }
 
 .editing-skills img {
@@ -188,6 +192,11 @@ footer .contact-box {
   color: var(--branding-color);
 
   transition: all 100ms ease-in-out;
+}
+.scroll a {
+  color: var(--branding-color);
+  font-size: 12px;
+  text-decoration: none;
 }
 
 @media (max-width: 1378px) {
