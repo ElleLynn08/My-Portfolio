@@ -99,7 +99,7 @@ footer .contact-box {
   text-align: center;
 }
 
- .skills p {
+.skills p {
   font-size: 14px;
 }
 @media (max-width: 460px) {
@@ -107,8 +107,16 @@ footer .contact-box {
     font-size: 6px;
   }
   .skills p {
-    font-size:6px;
+    font-size: 6px;
   }
+}
+
+.editing-skills img {
+  max-width: 35px;
+}
+
+.editing-skills p {
+  font-size: 14px;
 }
 
 .logo {
