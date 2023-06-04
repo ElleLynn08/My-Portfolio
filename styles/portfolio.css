@@ -280,3 +280,10 @@ footer .contact-box {
 .content p {
   font-size: 14px;
 }
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover{
+  color:var(--branding-color);
+}
