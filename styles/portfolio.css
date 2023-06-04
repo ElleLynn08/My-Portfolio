@@ -64,7 +64,7 @@ nav li.active a {
 
 footer .email-link {
   color: #000000;
-  font-size: 24px;
+  font-size: 22px;
   text-decoration: none;
 }
 footer .email-link:hover {
@@ -167,47 +167,6 @@ footer .contact-box {
   font-size: 24px;
   line-height: 1.5;
 }
-@media (max-width: 1378px) {
-  .hero-image {
-    max-width: 400px;
-  }
-  .hero {
-    max-height: 560px;
-  }
-}
-@media (max-width: 1025px) {
-  .hero-image {
-    max-width: 380px;
-  }
-  .hero {
-    max-height: 535px;
-  }
-}
-
-@media (max-width: 1000px) {
-  h1 {
-    font-size: 44px;
-    line-height: 56px;
-  }
-  h2 {
-    font-size: 40px;
-  }
-  .hero-image {
-    display: none;
-  }
-
-  .hero {
-    padding: 80px 20px;
-  }
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-  .content-container {
-    text-align: center;
-    padding: 0;
-  }
-}
 
 .btn-branding {
   background: var(--branding-color);
@@ -243,6 +202,51 @@ footer .contact-box {
   color: var(--branding-color);
   font-size: 12px;
   text-decoration: none;
+}
+@media (max-width: 1378px) {
+  .hero-image {
+    max-width: 400px;
+  }
+  .hero {
+    max-height: 560px;
+  }
+}
+@media (max-width: 1025px) {
+  .hero-image {
+    max-width: 380px;
+  }
+  .hero {
+    max-height: 535px;
+  }
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+  .hero-image {
+    display: none;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
 }
 
 /* About Page*/
